@@ -10,12 +10,13 @@ Author URI: http://www.xpeedstudio.com
     body {
         font-size: 1rem;
     }
-    
-
-
-
 }
 
+@media (max-width: 1199px) {
+    .product {
+        display:none;
+    }
+}
 
 
 /* Portrait tablets and small desktops */
@@ -51,9 +52,6 @@ Author URI: http://www.xpeedstudio.com
     .item_img i{
         right:0%;
     }
-
-
-
 }
 
 
